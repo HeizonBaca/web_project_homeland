@@ -26,6 +26,11 @@ body {
     padding-top: 30px;
   }
 
+  .lead {
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+
   .lead__title {
     font-size: 75px;
     line-height: 1.2;
@@ -33,18 +38,17 @@ body {
 
   .lead__subtitle {
     font-size: 24px;
-    margin: 24px 0 40px;
+    margin: 25px 0 30px;
   }
 
   .lead__image {
     width: 100%;
-    padding: 0 24px; /* evita que choque con bordes */
     box-sizing: border-box;
   }
 
   .intro {
-    margin: 0 auto 48px;
-    padding: 0 24px;
+    margin: 0 auto 88px;
+    padding: 0 37px 0 24px;
     max-width: 720px; /* ajusta al ancho tablet */
   }
 
