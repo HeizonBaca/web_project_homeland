@@ -1,0 +1,12 @@
+/* Vendor */
+@import url("./vendor/normalize.css");
+@import url("./vendor/fonts/inter.css");
+
+/* Blocks */
+@import url("./blocks/header/header.css");
+@import url("./blocks/lead/lead.css");
+@import url("./blocks/intro/intro.css");
+@import url("./blocks/footer/footer.css");
+
+/* Pages */
+@import url("./pages/index.css");

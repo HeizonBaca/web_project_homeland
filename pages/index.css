@@ -1,0 +1,113 @@
+:root {
+  --font-main: "Inter", sans-serif;
+  --color-bg: #2a2c2f;
+  --color-text: #ffffff;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+  margin: 0;
+}
+
+* {
+  outline: 1px solid red; /* 👀 cada elemento con su borde */
+}
+
+/* 📱 Responsivo */
+
+/* ===========================
+   Tablet (entre 544px y 1024px)
+   =========================== */
+@media screen and (max-width: 1024px) {
+  .header {
+    padding-top: 30px;
+  }
+
+  .lead__title {
+    font-size: 75px;
+    line-height: 1.2;
+  }
+
+  .lead__subtitle {
+    font-size: 24px;
+    margin: 24px 0 40px;
+  }
+
+  .lead__image {
+    width: 100%;
+    padding: 0 24px; /* evita que choque con bordes */
+    box-sizing: border-box;
+  }
+
+  .intro {
+    margin: 0 auto 48px;
+    padding: 0 24px;
+    max-width: 720px; /* ajusta al ancho tablet */
+  }
+
+  .intro__title {
+    font-size: 45px;
+    margin-bottom: 50px;
+  }
+
+  .intro__text {
+    font-size: 15px;
+  }
+
+  .intro__paragraph {
+    font-size: 13px;
+  }
+}
+
+/* ===========================
+   Mobile (entre 320px y 544px)
+   =========================== */
+@media screen and (max-width: 544px) {
+  .lead {
+    margin-top: 40px;
+  }
+
+  .lead__title {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+
+  .lead__subtitle {
+    text-align: center;
+    font-size: 16px;
+    margin: 16px 0 32px;
+  }
+
+  .lead__image {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .intro {
+    margin: 0 auto 32px;
+    padding: 0 16px;
+    max-width: 100%; /* ocupa todo el ancho */
+  }
+
+  .intro__title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .intro__text {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .intro__paragraph {
+    font-size: 12px;
+  }
+
+  .footer__text {
+    font-size: 12px;
+  }
+}
