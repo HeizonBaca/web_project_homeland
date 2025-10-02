@@ -12,10 +12,6 @@ body {
   margin: 0;
 }
 
-* {
-  outline: 1px solid red; /* 👀 cada elemento con su borde */
-}
-
 /* 📱 Responsivo */
 
 /* ===========================
@@ -111,7 +107,7 @@ body {
   .intro {
     margin: 0 auto 64px;
     padding: 0 16px;
-    max-width: 100%; /* ocupa todo el ancho */
+    max-width: 100%;
   }
 
   .intro__title {
