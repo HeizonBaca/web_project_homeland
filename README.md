@@ -1,6 +1,6 @@
 # Tripleten web_project_homeland
 
-# 🌍 Sprint 6: "De patria a patria"
+# 🌍 Sprint 5: "De patria a patria"
 
 Proyecto web creado como parte del curso de desarrollo front-end. El objetivo fue practicar el diseño adaptativo de una pagina web, siguiendo metodologías modernas como **BEM** y buenas prácticas de organización de archivos.
 
