@@ -28,3 +28,49 @@
   max-width: 984px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    margin: 90px 24px;
+  }
+
+  .lead__title {
+    font-size: 75px;
+    line-height: 1.2;
+  }
+
+  .lead__subtitle {
+    font-size: 30px;
+    margin: 25px 0 30px;
+    padding: 0;
+  }
+
+  .lead__image {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .lead {
+    margin: 50px 0 64px;
+  }
+
+  .lead__title {
+    font-size: 40px;
+    margin-bottom: 16px;
+    line-height: 1.2;
+    padding: 0 46px;
+  }
+
+  .lead__subtitle {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0 40px 0;
+  }
+
+  .lead__image {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
