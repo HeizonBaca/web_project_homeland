@@ -1,3 +1,13 @@
+/* Vendor */
+@import url("./vendor/normalize.css");
+@import url("./vendor/fonts/fonts.css");
+
+/* Blocks */
+@import url("./blocks/header/header.css");
+@import url("./blocks/lead/lead.css");
+@import url("./blocks/intro/intro.css");
+@import url("./blocks/footer/footer.css");
+
 :root {
   --font-main: "Inter", sans-serif;
   --color-bg: #2a2c2f;
