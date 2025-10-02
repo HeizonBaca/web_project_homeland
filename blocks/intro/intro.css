@@ -1,6 +1,6 @@
 .intro {
   max-width: 984px;
-  margin: 0 auto 64px;
+  margin: 0 auto 92px;
   padding: 0 154px 0 0;
   text-align: start;
   box-sizing: border-box;
@@ -14,19 +14,20 @@
 }
 
 .intro__text {
-  font-size: 16px;
+  font-size: 24px;
   margin: 0;
   line-height: 1.5;
+  padding: 0 92px 0 0;
 }
 
 .intro__quote {
-  font-style: italic;
   margin: 10px 0 32px;
   text-align: end;
 }
 
 .intro__paragraph {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   margin: 0;
+  padding: 0 120px 0 0;
 }

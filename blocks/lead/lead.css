@@ -13,8 +13,10 @@
 }
 
 .lead__subtitle {
+  text-align: center;
   font-size: 30px;
   margin: 32px 0 64px;
+  padding: 0 132px;
 }
 
 .lead__image {
