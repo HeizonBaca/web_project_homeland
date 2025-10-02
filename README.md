@@ -25,33 +25,6 @@ Proyecto web creado como parte del curso de desarrollo front-end. El objetivo fu
 - **Fuentes Inter (woff2)**
 - **Git / GitHub** (control de versiones)
 
----
-
-## 📂 Estructura del proyecto
-
-web_project_homeland/
-├── index.html # Página principal
-├── README.md # Documentación del proyecto
-├── blocks/ # Estilos modulares por secciones
-│ ├── footer/footer.css
-│ ├── header/header.css
-│ ├── intro/intro.css
-│ └── lead/lead.css
-├── pages/
-│ └── index.css # Estilos principales (importa los bloques)
-├── vendor/
-│ ├── normalize.css # Reset de estilos
-│ ├── fonts.css # Estilos de fuentes
-│ └── fonts/ # Archivos de fuente (Inter)
-│ ├── Inter-Black.woff2
-│ └── Inter-Regular.woff2
-├── images/
-│ ├── Logo.svg
-│ └── Paisaje.jpg
-└── .gitignore / .editorconfig # Configuración del proyecto
-
----
-
 ## 🚀 Proceso de desarrollo
 
 1. **Configuración inicial**
