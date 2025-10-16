@@ -11,9 +11,9 @@
   grid-template-areas:
     "title author"
     "image text"
-    "button text"; /* 👈 botón a la izquierda, en columna de la imagen */
+    "button text";
   column-gap: 40px;
-  row-gap: 48px; /* 👈 quitamos separación automática entre filas */
+  row-gap: 48px;
   color: #fff;
   align-items: start;
 }
@@ -72,7 +72,7 @@
 }
 
 .place__paragraph:not(:last-child) {
-  margin-bottom: 25px; /* solo entre párrafos, no debajo del último */
+  margin-bottom: 25px;
 }
 
 .place__button {
@@ -99,9 +99,6 @@
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.35);
 }
 
-/* 📱 Responsivo */
-
-/* Tablet */
 @media screen and (max-width: 1024px) {
   .places {
     margin: 88px 24px 90px;
@@ -148,7 +145,6 @@
   }
 }
 
-/* Mobile */
 @media screen and (max-width: 540px) {
   .places {
     margin: 62px 16px 65px;
@@ -176,11 +172,11 @@
   }
 
   .place__image {
-    width: 320px; /* ocupa todo el ancho de la ventana */
+    width: 320px;
     max-width: 320px;
-    margin-left: -16px; /* anula el margen lateral del contenedor */
+    margin-left: -16px;
     margin-right: -16px;
-    border-radius: 0; /* quita esquinas si quieres que llegue a los bordes */
+    border-radius: 0;
   }
 
   .place__button {

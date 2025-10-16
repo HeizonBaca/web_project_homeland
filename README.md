@@ -65,3 +65,63 @@ El proyecto final es una **página web responsiva, modular y bien estructurada**
 ## 👨‍💻 Autor
 
 **Heizon Rahi Baca Guerrero**
+
+# 🧩 Sprint 6: Usando Grid
+
+En este sprint se trabajó en la implementación del **sistema de diseño con CSS Grid** para estructurar el contenido del proyecto de forma más organizada, flexible y completamente responsiva.
+
+Se aplicaron mejoras visuales, estructurales y de optimización que consolidan la versión final del sitio web.
+
+---
+
+## 🎯 Objetivos del Sprint
+
+- Organizar la galería y las secciones principales utilizando **Grid**.
+- Alinear y distribuir correctamente los elementos visuales.
+- Mantener la coherencia con la **metodología BEM**.
+- Mejorar la **interactividad** y la **navegación** del sitio.
+- Optimizar el proyecto reduciendo su peso y mejorando su rendimiento.
+
+---
+
+## 🧱 Desarrollo del Sprint
+
+Durante este sprint se rediseñó la disposición general del contenido utilizando **CSS Grid**, lo que permitió crear un diseño más equilibrado y adaptable a diferentes pantallas.  
+Se corrigieron alineaciones, proporciones y márgenes para lograr una presentación más limpia y consistente.
+
+También se añadieron **efectos visuales al pasar el cursor (hover)**, logrando una interfaz más dinámica y moderna sin alterar la estructura base del proyecto.  
+Las imágenes se **anclaron a enlaces**, facilitando la navegación entre páginas y mejorando la experiencia del usuario.
+
+---
+
+## 🖼️ Optimización de Recursos
+
+Todas las imágenes fueron reemplazadas por versiones en formato **SVG**, lo que permitió:
+
+- Reducir el peso total del repositorio.
+- Mantener la nitidez y escalabilidad del contenido gráfico.
+- Mejorar la carga visual del sitio y su compatibilidad en distintos dispositivos.
+
+---
+
+## 📱 Diseño Responsivo
+
+El sitio ahora se adapta correctamente a diferentes resoluciones, garantizando una experiencia uniforme en computadoras, tabletas y móviles.  
+La estructura con **Grid** permitió mantener el orden visual sin necesidad de reestructurar el HTML, optimizando la legibilidad del código y el mantenimiento futuro.
+
+---
+
+## ✅ Resultados del Sprint
+
+- Diseño completamente estructurado con **CSS Grid**.
+- Interfaz más limpia, equilibrada y profesional.
+- Imágenes optimizadas y con enlaces funcionales.
+- Efectos visuales suaves al interactuar.
+- Peso total del proyecto reducido y rendimiento mejorado.
+- Sitio 100 % **responsivo y funcional**.
+
+---
+
+## 👨‍💻 Autor
+
+**Heizon Baca**

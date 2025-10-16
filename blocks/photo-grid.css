@@ -16,8 +16,6 @@
 }
 
 /* ====== MEDIA QUERIES ====== */
-
-/* 💻 Pantallas medianas (de 768px a 1279px): 2 columnas */
 @media screen and (max-width: 1024px) {
   .photo-grid {
     padding: 0 24px 0;
@@ -29,7 +27,6 @@
   }
 }
 
-/* 📱 Pantallas pequeñas (hasta 767px): 1 columna */
 @media screen and (max-width: 544px) {
   .photo-grid {
     padding: 0 16px 0;
