@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 80px;
-  margin: 92px 148px 0;
+  margin: 92px 148px 90px;
 }
 
 .place {
@@ -10,9 +10,12 @@
   grid-template-columns: 460px 1fr;
   grid-template-areas:
     "title author"
-    "image text";
-  gap: 48px 40px;
+    "image text"
+    "button text"; /* 👈 botón a la izquierda, en columna de la imagen */
+  column-gap: 40px;
+  row-gap: 0; /* 👈 quitamos separación automática entre filas */
   color: #fff;
+  align-items: start;
 }
 
 .place__title {
@@ -21,11 +24,13 @@
   line-height: 76px;
   font-weight: 900;
   margin: 0;
+  margin-bottom: 48px;
 }
 
 .place__author {
   grid-area: author;
   align-self: end;
+  margin-bottom: 48px;
 }
 
 .place__artist-title {
@@ -33,6 +38,7 @@
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1.5px;
+  margin: 0;
   margin-bottom: 8px;
 }
 
@@ -46,8 +52,9 @@
   grid-area: image;
   width: 100%;
   height: auto;
-  border-radius: 8px;
   object-fit: cover;
+  position: relative;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.25);
 }
 
 .place__image--placeholder {
@@ -59,7 +66,6 @@
   justify-content: center;
   color: #888;
   font-size: 16px;
-  border-radius: 8px;
 }
 
 .place__text {
@@ -69,23 +75,36 @@
 .place__paragraph {
   font-size: 18px;
   line-height: 29px;
-  margin-bottom: 24px;
+  margin: 0;
+}
+
+.place__paragraph:not(:last-child) {
+  margin-bottom: 25px; /* solo entre párrafos, no debajo del último */
 }
 
 .place__button {
-  display: inline-block;
-  background-color: #027bff;
+  grid-area: button;
+  justify-self: start;
+  align-self: start;
+  width: 288px;
+  height: 48px;
+  margin-top: 48px;
+  background: linear-gradient(90deg, #007bff 0%, #003a7b 100%);
   color: #fff;
   text-decoration: none;
-  padding: 12px 20px;
-  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 600;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .place__button:hover {
-  background-color: #0369e2;
-  transform: scale(1.02);
+  background: linear-gradient(#003a7b 25%);
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.35);
 }
 
 /* 📱 Responsivo */

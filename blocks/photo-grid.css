@@ -1,7 +1,7 @@
 .photo-grid {
   background-color: #2a2c2f;
-  padding: 0 53px 0 43px; /* ↑ espacio superior, 48px laterales */
-  margin: 0 auto; /* centra horizontalmente */
+  padding: 0 53px 0 43px;
+  margin: 0 auto;
 }
 
 .photo-grid__container {
@@ -20,7 +20,7 @@
 /* 💻 Pantallas medianas (de 768px a 1279px): 2 columnas */
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    padding: 88px 24px 0;
+    padding: 0 24px 0;
   }
 
   .photo-grid__container {
@@ -32,7 +32,7 @@
 /* 📱 Pantallas pequeñas (hasta 767px): 1 columna */
 @media screen and (max-width: 544px) {
   .photo-grid {
-    padding: 64px 16px 0;
+    padding: 0 16px 0;
   }
 
   .photo-grid__container {
